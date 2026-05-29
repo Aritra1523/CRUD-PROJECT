@@ -8,10 +8,11 @@ import ProductAdd from "./pages/crud/post_add/ProductAdd";
 import ProductUpdate from "./pages/crud/product_Update/productUpdate";
 import CheckPrivateRouting from "./routes/CheckPrivateRouting";
 import ErrorPage from "./pages/error/ErrorPage";
-import ProductDetails from "./pages/crud/productDetails/productDetails";
+// import ProductDetails from "./pages/crud/productDetails/productDetails";
 import Profile from "./pages/crud/Profile/Profile";
 import ForgotPassword from "./pages/crud/forgetPassword/ForgetPassword";
 import ResetPassword from "./components/ResetPassword";
+import ProductDetails from "./pages/crud/productDetails/ProductDetails";
 
 const Register = lazy(() => import("./pages/auth/signUp/register"));
 const Login = lazy(() => import("./pages/auth/signIn/login"));
@@ -58,7 +59,7 @@ function App() {
     },
     {
       path: "/product/details/:id",
-      component: <ProductDetails />,
+      component: <ProductDetailsetails />,
     },
     {
       path: "/profile",
