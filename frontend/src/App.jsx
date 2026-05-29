@@ -59,7 +59,7 @@ function App() {
     },
     {
       path: "/product/details/:id",
-      component: <ProductDetailsetails />,
+      component: <ProductDetails />,
     },
     {
       path: "/profile",
